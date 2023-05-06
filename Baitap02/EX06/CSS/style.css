@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding:0px;
+
+}
+
+/* Global */
+.container{
+    padding-left:15%;
+    padding-right:15%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Header **/
+header{
+    background-color:rgb(96, 156, 204);
+    border-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color: powderblue;
+    min-height:70px;
+
+}
+
+header a{
+  
+    color:rgb(96, 156, 204);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li{
+    float: left;
+    display: flex;
+    padding: 13px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    color:white;
+    padding-top:18px;
+}
+
+header nav{
+    float: right;
+  margin-top: 25px;
+  align-items: center;
+}
+
+header .highlight, header .current a{
+    color:powderblue;
+
+}
+
+header a:hover{
+  font-weight: bold;
+
+}
+
+
+
+/* Showcase */
+#showcase{
+    width: 70%;
+    height:300px;
+    background-image: url("../img/showcase.jpg") ;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#showcase h1{
+    color: white;
+    font-size:70px;
+}
+
+#showcase p{
+    color: white;
+    font-size:20px;
+}
+
+
+footer{
+    background-color: orangered;
+    color:white;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
