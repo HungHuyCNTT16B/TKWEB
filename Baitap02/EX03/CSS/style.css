@@ -1,33 +1,16 @@
+.body{
+  background-color: white;
+}
+/* Header **/
 header{
-    background-color:rgb(96, 156, 204);
-    border-style:solid;
-    border-bottom-width: 3px;
-    border-bottom-color: blue;
-    
+ background-color: whitesmoke;
 }
-header h1{
-    color:white;
-    padding-top:30px;
-}
-header a{
-    color:rgb(91, 21, 131);
-}
-header ul{
-    padding-bottom:25px;
-    list-style:none;
-}
-header li::before {
-    content: "•"; color: rgb(145, 134, 55);
-    display: inline-block; width: 1em;
-    margin-left: -1em
-}
+.header{
+  background-color: whitesmoke;
+ }
 footer{
-    background-color: powderblue;
-    color:white;
-    text-align: center;
+  background-color: whitesmoke;
 }
-footer p{
-    padding-top:40px;
-    padding-bottom:40px;
-    
+.footer{
+  background-color: whitesmoke;
 }
