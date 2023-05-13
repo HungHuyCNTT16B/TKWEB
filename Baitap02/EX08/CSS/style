@@ -83,7 +83,7 @@
   /* Showcase */
   #showcase{
     min-height:345px;
-    background: url;
+    background: url(../img/showcase.jpg);
     background-size: 100%;
     text-align:center;
     color:black;
